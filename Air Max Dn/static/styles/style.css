@@ -1,0 +1,470 @@
+/* Estilos CSS para o site Nike Air Max Dn */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #f30;
+}
+
+ul {
+    list-style-position: inside;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 4rem 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 6rem 2rem;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/air_max_dn_2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Seção Revolução */
+#revolucao {
+    text-align: center;
+    background-color: #fff;
+    padding: 4rem 2rem;
+}
+
+.revolucao-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.stat {
+    flex: 1;
+    min-width: 200px;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.stat .numero {
+    font-size: 3rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.stat .texto {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.revolucao-descricao {
+    max-width: 800px;
+    margin: 2rem auto;
+    font-size: 1.1rem;
+}
+
+/* Seções Design */
+.design-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.design-content {
+    flex: 1;
+    min-width: 300px;
+    padding: 2rem;
+}
+
+.design-image {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+}
+
+.alt-layout .design-content {
+    order: 2;
+}
+
+.alt-layout .design-image {
+    order: 1;
+}
+
+.features {
+    margin-top: 2rem;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.feature-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+/* Seção Construção */
+#construcao {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.construcao-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.construcao-item {
+    flex: 1;
+    min-width: 200px;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.construcao-descricao {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+/* Seção Tecnologia */
+#tecnologia {
+    background-image: url('/static/assets/AirMaxDn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Ajuste a opacidade aqui */
+    background-blend-mode: overlay; /* ou multiply, screen, etc. */
+    text-align: center;
+    color: white;
+}
+
+.tecnologia-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+    color: black;
+}
+
+.tecnologia-item {
+    flex: 1;
+    min-width: 250px;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tecnologia-descricao {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+/* Seção Conforto */
+#conforto {
+    background-color: #fff;
+    text-align: center;
+}
+
+.conforto-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+
+}
+
+.conforto-item {
+    flex: 1;
+    min-width: 250px;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.conforto-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem;
+}
+
+.conforto-descricao {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+/* Seção Galeria */
+#galeria {
+    text-align: center;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.galeria-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.galeria-grid img:hover {
+    transform: scale(1.05);
+}
+
+.galeria-descricao {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+/* Seção Onde Comprar */
+#onde-comprar {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.lojas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.loja-item {
+    flex: 1;
+    min-width: 250px;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.btn-comprar {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #111;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #f30;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.comprar-descricao {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+/* Animações e efeitos */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Modal para galeria de imagens */
+.imagem-modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-modal img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.fechar-modal {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Botão voltar ao topo */
+.botao-topo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+
+.botao-topo.mostrar {
+    opacity: 1;
+    visibility: visible;
+}
+
+.botao-topo:hover {
+    background-color: #f30;
+    transform: translateY(-5px);
+}
+
+/* Estilos responsivos */
+@media (max-width: 992px) {
+    .design-section {
+        flex-direction: column;
+    }
+    
+    .alt-layout .design-content,
+    .alt-layout .design-image {
+        order: unset;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 4rem 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    section {
+        padding: 3rem 1rem;
+    }
+    
+    .stat, .construcao-item, .tecnologia-item, .conforto-item, .loja-item {
+        min-width: 100%;
+        margin: 1rem 0;
+    }
+    
+    .galeria-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .revolucao-stats {
+        flex-direction: column;
+    }
+    
+    .galeria-grid {
+        grid-template-columns: 1fr;
+    }
+}
