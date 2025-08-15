@@ -3,7 +3,7 @@
 
 ## Descrição 🚀
 
-Air Max Dn é uma aplicação web desenvolvida em Flask para um jogo de cartas interativo. O projeto implementa um sistema de deck building onde os jogadores podem escolher personagens, salvar seus decks e participar de partidas.
+Descubra o Air Max Dn, o ápice da inovação em amortecimento. Equipado com a tecnologia Dynamic Air de tubo duplo, este tênis oferece uma sensação sem precedentes. A câmara de alta pressão no calcanhar proporciona um impulso poderoso, enquanto a câmara de baixa pressão na frente garante uma transição suave e macia. Com um visual que combina atitude e modernidade, o Air Max Dn é para quem busca performance e estilo em cada passo.
 
 ---
 
@@ -11,13 +11,11 @@ Air Max Dn é uma aplicação web desenvolvida em Flask para um jogo de cartas i
 
 •Framework: Flask (Python)
 
-• Template Engine: Jinja2
+• HTML
 
-• Configurações: Auto-reload de templates habilitado
+• CSS 
 
-• Validação: Verificação de existência de templates
-
-• Persistência: Salvamento de decks em arquivo JSON
+• JS
 
 ---
 
